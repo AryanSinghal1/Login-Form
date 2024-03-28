@@ -65,15 +65,17 @@ export default function App() {
         </div>
         <h2 className="font-semibold text-lg">or use your email for registration</h2>
         <form className="w-1/3">
-        <div className="w-full py-2 my-1 bg-slate-200 rounded-md">
-
-          <input type="text" className="w-full h-full bg-slate-200 px-2" placeholder="Name"></input>
+        <div className="w-full py-2 my-1 bg-slate-200 flex rounded-md">
+        <div className="w-[10%] h-full">ICON</div>
+          <input type="text" className="w-[90%] h-full bg-slate-200 px-2" placeholder="Name"></input>
         </div>
-        <div className="w-full py-2 my-1 bg-slate-200 rounded-md">
-          <input type="text" className="w-full h-full bg-slate-200" placeholder="Email"></input>
+        <div className="w-full py-2 my-1 bg-slate-200 flex rounded-md">
+        <div className="w-[10%] h-full">ICON</div>
+          <input type="text" className="w-[90%] h-full bg-slate-200 px-2" placeholder="Email"></input>
         </div>
-        <div className="w-full py-2 my-1 bg-slate-200 rounded-md">
-          <input type="text" className="w-full h-full bg-slate-200" placeholder="Password"></input>
+        <div className="w-full py-2 my-1 bg-slate-200 flex rounded-md">
+        <div className="w-[10%] h-full">ICON</div>
+          <input type="text" className="w-[90%] h-full bg-slate-200 px-2" placeholder="Password"></input>
         </div></form>
       </div>
     </div>
